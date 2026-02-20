@@ -10,7 +10,7 @@ import CampaignCard from "@/components/CampaignCard";
 import RoasChart from "@/components/RoasChart";
 
 const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-
+console.log("API URL:", process.env.NEXT_PUBLIC_URL);
 function useCounter(target: number, duration = 1000) {
   const [count, setCount] = useState(0);
   useEffect(() => {
