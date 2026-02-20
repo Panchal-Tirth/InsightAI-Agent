@@ -1,0 +1,50 @@
+# ── Python ────────────────────────────────────────────────────────────────
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+backend/myenv/
+backend/__pycache__/
+backend/app/__pycache__/
+**/__pycache__/
+*.pyc
+backend/.env
+# ── Environment Variables (NEVER commit these) ────────────────────────────
+.env
+.env.local
+.env.production
+
+# ── Next.js ───────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+
+
+
+# ── n8n ───────────────────────────────────────────────────────────────────
+.n8n/
+
+# ── OS ────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+
+# Data
+data/alerts.json
+data/latest_report.md
+
+backend/venv/
+backend/myenv/
+backend/.venv/
+venv/
