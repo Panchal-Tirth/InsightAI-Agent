@@ -19,7 +19,7 @@ app = FastAPI(
 # ── CORS — allow Next.js frontend (localhost:3000) to call the API ────────────
 app.add_middleware(
     CORSMiddleware,
-    allow_origins  = ["http://localhost:3000"],   # Add your Vercel URL here later
+    allow_origins  = ["http://localhost:3000","https://insight-ai-agent.vercel.app/"],   # Add your Vercel URL here later
     allow_methods  = ["*"],
     allow_headers  = ["*"],
     allow_credentials = True,
